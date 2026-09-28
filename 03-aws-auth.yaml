@@ -1,7 +1,9 @@
+# kubectl get configmap aws-auth -n kube-system -o yaml..
+# use the above command to get the info of the below..
 apiVersion: v1
 data:
   mapRoles: |
-    - rolearn: arn:aws:iam::160885265516:role/eksctl-roboshop-dev-nodegroup-robo-NodeInstanceRole-SbfgbYSSoQvc
+     - rolearn: arn:aws:iam::981026210967:role/eksctl-roboshop-dev-nodegroup-robo-NodeInstanceRole-cBMpCwNx6L5j
       groups:
       - system:bootstrappers
       - system:nodes
@@ -13,7 +15,9 @@ data:
       username: suresh
 kind: ConfigMap
 metadata:
-  creationTimestamp: "2025-12-11T01:49:27Z"
+  creationTimestamp: "2026-09-28T10:16:16Z"
   name: aws-auth
   namespace: kube-system
-  uid: 33956aae-bab6-40e4-af5b-8e3b202d922e
+  resourceVersion: "1275"
+  uid: c1768fba-84f1-4a27-b4cd-d82f4d138971
+
