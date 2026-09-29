@@ -16,10 +16,9 @@ roleRef:
 ---
 #clusterrolebinding
 apiVersion: rbac.authorization.k8s.io/v1
-kind: RoleBinding
+kind: ClusterRoleBinding
 metadata:
   name: roboshop-admin
-  namespace: roboshop
 subjects:
 # You can specify more than one "subject"
 - kind: User
