@@ -1,0 +1,13 @@
+apiVersion: v1
+kind: ServiceAccount
+metadata:
+  annotations:
+    eks.amazonaws.com/role-arn: arn:aws:iam::981026210967:role/eksctl-roboshop-dev-addon-iamserviceaccount-r-Role1-nxvQEmDaa6JL
+  creationTimestamp: "2026-09-30T06:21:51Z"
+  labels:
+    app.kubernetes.io/managed-by: eksctl
+  name: secret-reader
+  namespace: roboshop
+  resourceVersion: "24419"
+  uid: 0baf901b-3050-4262-ac42-b3d64358bfc6
+
